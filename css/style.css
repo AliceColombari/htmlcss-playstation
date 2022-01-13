@@ -9,6 +9,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* testo grigio */
+.ms_text_grey{
+    color: grey;
+}
+
+
 /* HEADER LOGO */
 .logo img{
     width: 80px;
@@ -22,7 +28,9 @@ body{
 .lens{
     height: 30px;
 }
-/* JUMBOTRON BACKGOUND */
+
+
+/* JUMBOTRON BACKGOUND - FIRST PART */
 .ms_bg_jumbo{
     height: 700px;
     background-image: url(/img/jumbo-bg.png);
@@ -30,25 +38,63 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-/* JUMBOTRON TEXT */
+/* position relative */
 .ms_relative{
     position: relative;
 }
-
+/* position absolute */
 .ms_absolute_bottom{
     position: absolute;
     bottom: 20px;
 }
-
+/* grandezza logo returnals */
 .ms_logo_returnals{
     width: 30%;
 }
-
+/* altezza */
 .ms_height{
     height: 100%;
 }
-
+/* bottone arancione acquista ora */
 .ms_btn_orange{
     background-color: #CD3D0F;
     color: #fff;
+}
+
+/* JUMBOTRON GALLERY - FIRST PART*/
+/* border */
+.ms_image_uno{
+    padding: 2px 2px;
+    border: 2px solid #0070D1;
+}
+/* radius */
+.ms_rounded{
+    border-radius: 20px;
+}
+
+/* MAIN SECOND PART */
+/* bottone blu maggiori info */
+.ms_btn_blue{
+    background-color: #0070D1;
+    color: #fff;
+}
+/* image play */
+.ms_play5 img{
+    width: 100%;
+}
+/* border bottom image play */
+.ms_selected{
+    border-bottom: 2px solid #0070D1;
+}
+/* item accessori play opacità + hover */
+.ms_opacity{
+    filter: opacity(0.5);
+}
+
+.ms_opacity:hover{
+    cursor: pointer;
+    filter: opacity(1);
+    
+    border-bottom: 2px solid #0070D1;
+    height: 100%;
 }
