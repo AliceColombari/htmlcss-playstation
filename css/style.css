@@ -14,12 +14,33 @@ body{
     width: 80px;
     height: 40px;
 }
-
-
+/* HEADER BOTTOM CONTAINER */
 .ms_header_bottom{
     margin-top: 40px;
 }
-
+/* HEADER BOTTOM RIGHT */
 .lens{
     height: 30px;
+}
+/* JUMBOTRON BACKGOUND */
+.ms_bg_jumbo{
+    height: 700px;
+    background-color: red;
+}
+
+.ms_relative{
+    position: relative;
+}
+
+.ms_absolute_bottom{
+    position: absolute;
+    bottom: 20px;
+}
+
+.ms_logo_returnals img{
+    width: 50%;
+}
+
+.ms_height{
+    height: 100%;
 }
