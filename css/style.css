@@ -25,9 +25,12 @@ body{
 /* JUMBOTRON BACKGOUND */
 .ms_bg_jumbo{
     height: 700px;
-    background-color: red;
+    background-image: url(/img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
+/* JUMBOTRON TEXT */
 .ms_relative{
     position: relative;
 }
@@ -37,10 +40,15 @@ body{
     bottom: 20px;
 }
 
-.ms_logo_returnals img{
+.ms_logo_returnals{
     width: 50%;
 }
 
 .ms_height{
     height: 100%;
+}
+
+.ms_btn_orange{
+    background-color: #CD3D0F;
+    color: #fff;
 }
