@@ -26,11 +26,16 @@ body{
 }
 /* HEADER BOTTOM RIGHT */
 .lens{
-    height: 30px;
+    height: 25px;
+    vertical-align: middle;
 }
 
 
 /* JUMBOTRON BACKGOUND - FIRST PART */
+.jumbotron {
+    margin-top: 115px;
+}
+
 .ms_bg_jumbo{
     height: 700px;
     background-image: url(/img/jumbo-bg.png);
