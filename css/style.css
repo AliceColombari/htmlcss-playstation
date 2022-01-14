@@ -148,3 +148,25 @@ body{
     height: 100%;
 }
 /* FINE MAIN SECOND PART */
+
+
+
+/* THIRD PART IT TAKES TWO */
+.ms_bg_takes_two{
+    height: 700px;
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ms_logo_takes_two{
+    width: 40%;
+}
+
+
+
+/* FOURTH SECTION */
+.ms_bg_dark{
+    background-color: #1F1F1F;
+}
