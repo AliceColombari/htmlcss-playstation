@@ -39,7 +39,7 @@ body{
 }
 
 .ms_btn_black:hover{
-    outline: 2px solid #0070D1;
+    outline: 2px solid black;
 }
 /* FINE HEADER */
 
@@ -81,7 +81,8 @@ body{
 .ms_btn_orange{
     background-color: #CD3D0F;
     color: #fff;
-    outline: 1px solid #ff00;
+    padding: 8px;
+    outline: 5px solid #ff00;
     outline: 2px;
 }
 
@@ -97,6 +98,11 @@ body{
     border: 2px solid #0070D1;
 }
 
+.ms_images:hover{
+    padding: 2px 2px;
+    border: 2px solid #0070D1;
+    transform: scale(1);
+}
 /* radius */
 .ms_rounded{
     border-radius: 20px;
