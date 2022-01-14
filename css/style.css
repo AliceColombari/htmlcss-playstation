@@ -183,3 +183,19 @@ body{
    border: 2px solid #BEBCBB;
    outline: 4px solid rgba(255, 255, 255, 0.5);
 }
+
+
+/* EIGHT SECTION */
+.ms_bg_darkblue{
+    background-color: #161c3b;
+}
+
+.ms_btn_white{
+    color: black;
+    background-color: #fff;
+}
+
+.ms_btn_white:hover{
+    border: 2px solid #161c3b;
+    outline: 4px solid #fff;
+}
