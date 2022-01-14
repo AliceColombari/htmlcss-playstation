@@ -59,6 +59,12 @@ body{
 .ms_btn_orange{
     background-color: #CD3D0F;
     color: #fff;
+    outline: 1px solid white;
+    outline: 2px;
+}
+
+.ms_btn_orange:hover{
+    outline: 1px solid black;
 }
 
 /* JUMBOTRON GALLERY - FIRST PART*/
@@ -77,6 +83,12 @@ body{
 .ms_btn_blue{
     background-color: #0070D1;
     color: #fff;
+    outline: 1px solid white;
+    outline: 2px;
+}
+
+.ms_btn_blue:hover{
+    outline: 1px solid black;
 }
 /* image play */
 .ms_play5 img{
