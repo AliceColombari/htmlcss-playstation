@@ -13,6 +13,7 @@ body{
 .ms_text_grey{
     color: grey;
 }
+/* FINE REGOLE COMMON */
 
 
 /* HEADER LOGO */
@@ -20,10 +21,12 @@ body{
     width: 80px;
     height: 40px;
 }
+
 /* HEADER BOTTOM CONTAINER */
 .ms_header_bottom{
     margin-top: 40px;
 }
+
 /* HEADER BOTTOM RIGHT */
 .lens{
     height: 25px;
@@ -38,6 +41,7 @@ body{
 .ms_btn_black:hover{
     outline: 2px solid #0070D1;
 }
+/* FINE HEADER */
 
 /* JUMBOTRON BACKGOUND - FIRST PART */
 .jumbotron {
@@ -51,23 +55,28 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 /* position relative */
 .ms_relative{
     position: relative;
 }
+
 /* position absolute */
 .ms_absolute_bottom{
     position: absolute;
     bottom: 20px;
 }
+
 /* grandezza logo returnals */
 .ms_logo_returnals{
     width: 50%;
 }
+
 /* altezza */
 .ms_height{
     height: 100%;
 }
+
 /* bottone arancione acquista ora */
 .ms_btn_orange{
     background-color: #CD3D0F;
@@ -87,10 +96,13 @@ body{
     padding: 2px 2px;
     border: 2px solid #0070D1;
 }
+
 /* radius */
 .ms_rounded{
     border-radius: 20px;
 }
+/* FINE JUMBOTRON */
+
 
 /* MAIN SECOND PART */
 /* bottone blu maggiori info */
@@ -105,19 +117,23 @@ body{
     outline: 2px solid black;
     color: #fff;
 }
+
 /* image play */
 .ms_play5 img{
     width: 100%;
 }
+
 /* border bottom image play */
 .ms_selected{
     border-bottom: 2px solid #0070D1;
 }
-/* item accessori play opacità + hover */
+
+/* item accessori play opacità */
 .ms_opacity{
     filter: opacity(0.5);
 }
 
+/* item accessori play opacità hover + linea sotto */
 .ms_opacity:hover{
     cursor: pointer;
     filter: opacity(1);
@@ -125,3 +141,4 @@ body{
     border-bottom: 2px solid #0070D1;
     height: 100%;
 }
+/* FINE MAIN SECOND PART */
