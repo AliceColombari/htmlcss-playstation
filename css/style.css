@@ -199,3 +199,23 @@ body{
     border: 2px solid #161c3b;
     outline: 4px solid #fff;
 }
+
+
+
+/* FOOTER */
+.footer-menu{
+    background-color: #00439C;
+}
+
+.ms_play_logo img{
+    width: 20%;
+    filter: brightness(0) invert(1);
+}
+
+.ms_list{
+    list-style-type: none;
+}
+
+.ms_sony{
+    width: 30%;
+}
