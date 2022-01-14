@@ -33,13 +33,10 @@ body{
     vertical-align: middle;
 }
 
-.ms_btn_black{
-    outline: 1px solid #ff00;
-    outline: 2px;
-}
-
 .ms_btn_black:hover{
-    outline: 2px solid black;
+    color: #fff;
+    border: 2px solid #fff;
+    outline: 4px solid black;
 }
 /* FINE HEADER */
 
@@ -81,14 +78,12 @@ body{
 .ms_btn_orange{
     background-color: #CD3D0F;
     color: #fff;
-    padding: 8px;
-    outline: 5px solid #ff00;
-    outline: 2px;
 }
 
 .ms_btn_orange:hover{
-    outline: 2px solid #fff;
     color: #fff;
+    border: 2px solid black;
+    outline: 4px solid #CD3D0F;
 }
 
 /* JUMBOTRON GALLERY - FIRST PART*/
@@ -115,13 +110,12 @@ body{
 .ms_btn_blue{
     background-color: #0070D1;
     color: #fff;
-    outline: 1px solid #fff;
-    outline: 2px;
 }
 
 .ms_btn_blue:hover{
-    outline: 2px solid black;
     color: #fff;
+    border: 2px solid #fff;
+    outline: 4px solid #0070D1;
 }
 
 /* image play */
@@ -169,4 +163,23 @@ body{
 /* FOURTH SECTION */
 .ms_bg_dark{
     background-color: #1F1F1F;
+}
+
+/* SIXTH SECTION */
+.ms_bg_lightgray{
+    background-color: #BEBCBB;
+}
+
+.ms_plus img{
+    width: 50%;
+}
+
+.ms_btn_transparent{
+    color: #0070D1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ms_btn_transparent:hover{
+   border: 2px solid #BEBCBB;
+   outline: 4px solid rgba(255, 255, 255, 0.5);
 }
