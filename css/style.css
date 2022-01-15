@@ -47,7 +47,7 @@ body{
 
 .ms_bg_jumbo{
     height: 700px;
-    background-image: url(/img/jumbo-bg.png);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +148,7 @@ body{
 /* THIRD PART IT TAKES TWO */
 .ms_bg_takes_two{
     height: 700px;
-    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
