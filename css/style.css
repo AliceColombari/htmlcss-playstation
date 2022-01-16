@@ -229,7 +229,7 @@ header .ms_nav_hover:hover{
     background-color: #00439C;
 }
 
-.ms_play_logo img{
+.ms_play_logo{
     width: 20%;
     filter: brightness(0) invert(1);
 }
