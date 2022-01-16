@@ -16,6 +16,28 @@ body{
 /* FINE REGOLE COMMON */
 
 
+header .ms_nav_hover:hover{
+    color: #0070D1 !important;
+}
+
+.ms_visible, .ms_visible_none{
+    width: 10px;
+}
+
+.ms_nav_hover:hover .ms_visible{
+    display: none;
+}
+
+.ms_visible_none{
+    display: none;
+}
+
+.ms_nav_hover:hover .ms_visible_none{
+    display: inline;
+}
+
+
+
 /* HEADER LOGO */
 .logo img{
     width: 80px;
