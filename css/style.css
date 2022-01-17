@@ -36,7 +36,9 @@ header .ms_nav_hover:hover{
     display: inline;
 }
 
-
+.ms_bg_header{
+    background-color: #fff;
+}
 
 /* HEADER LOGO */
 .logo img{

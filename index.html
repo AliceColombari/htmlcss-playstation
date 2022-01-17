@@ -27,7 +27,7 @@
         </div>
 
         <!-- HEADER BOTTOM -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light ms_header_bottom d-flex fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light ms_bg_header ms_header_bottom d-flex fixed-top">
             <!-- container -->
             <div class="container-fluid">
                 <!-- logo play -->
@@ -40,11 +40,12 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <!-- item menu left -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       
+                       <!-- PRIMO LINK - GIOCHI -->
                         <!-- item menu dropdown -->
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown position-static">
 
-                            <!-- PRIMO LINK - GIOCHI -->
-                            <a class="nav-link text-dark ms_nav_hover" href="#">Giochi
+                            <a class="nav-link text-dark ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi
                                 <!-- freccia dropdown -->
                                 <span>
                                     <img src="img/chevron-down-solid.svg" class="ms_visible" alt="">
@@ -54,6 +55,36 @@
                                     <img src="img/chevron-down-solid-hover.svg" class="ms_visible_none" alt="">
                                 </span>
                             </a>
+
+                           <!--dropdown menu -->
+                           <ul class="dropdown-menu w-100 text-center border-0 m-0 rounded-0 ms_bg_header" aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <br>
+                                Playstation 5</a></li>
+
+                            <li class="list-inline-item"><a class="dropdown-item" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <br>
+                                Playstation 4</a></li>
+
+                            <li class="list-inline-item"><a class="dropdown-item" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <br>
+                                Playstation 3</a></li>
+                            
+
+                            <li><hr class="dropdown-divider"></li>
+
+                            <li>
+                                <ul class="sub-dropdown d-flex justify-content-center p-0">
+                                    <li class="me-3 ms-3"><a class="text-dark text-decoration-none" href="#">Link Giochi</a></li>
+                                    <li class="me-3 ms-3"><a class="text-dark text-decoration-none" href="#">Link Giochi</a></li>
+                                    <li class="me-3 ms-3"><a class="text-dark text-decoration-none" href="#">Link Giochi</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+
                         </li>
                         <!-- FINE PRIMO LINK - GIOCHI -->
 
