@@ -72,8 +72,8 @@ header .ms_nav_hover:hover{
 
 .ms_btn_black:hover{
     color: #fff;
-    border: 2px solid #fff;
-    outline: 4px solid black;
+    border: 1px solid #fff;
+    outline: 2px solid black;
 }
 /* FINE HEADER */
 
@@ -119,8 +119,8 @@ header .ms_nav_hover:hover{
 
 .ms_btn_orange:hover{
     color: #fff;
-    border: 2px solid black;
-    outline: 4px solid #CD3D0F;
+    border: 1px solid black;
+    outline: 2px solid #CD3D0F;
 }
 
 /* JUMBOTRON GALLERY - FIRST PART*/
@@ -151,8 +151,8 @@ header .ms_nav_hover:hover{
 
 .ms_btn_blue:hover{
     color: #fff;
-    border: 2px solid #fff;
-    outline: 4px solid #0070D1;
+    border: 1px solid #fff;
+    outline: 2px solid #0070D1;
 }
 
 /* image play */
@@ -168,6 +168,7 @@ header .ms_nav_hover:hover{
 /* item accessori play opacità */
 .ms_opacity{
     filter: opacity(0.5);
+    border-bottom: 2px solid transparent;
 }
 
 /* item accessori play opacità hover + linea sotto */
@@ -217,8 +218,8 @@ header .ms_nav_hover:hover{
 }
 
 .ms_btn_transparent:hover{
-   border: 2px solid #BEBCBB;
-   outline: 4px solid rgba(255, 255, 255, 0.5);
+   border: 1px solid #BEBCBB;
+   outline: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 
@@ -233,8 +234,8 @@ header .ms_nav_hover:hover{
 }
 
 .ms_btn_white:hover{
-    border: 2px solid #161c3b;
-    outline: 4px solid #fff;
+    border: 1px solid #161c3b;
+    outline: 2px solid #fff;
 }
 
 
