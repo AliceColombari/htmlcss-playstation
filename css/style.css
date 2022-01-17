@@ -15,7 +15,7 @@ body{
 }
 /* FINE REGOLE COMMON */
 
-
+/* HEADER COLOR LINK + VISIBILITA */
 header .ms_nav_hover:hover{
     color: #0070D1 !important;
 }
@@ -36,6 +36,7 @@ header .ms_nav_hover:hover{
     display: inline;
 }
 
+/* HEADER BACKGROUND */
 .ms_bg_header{
     background-color: #fff;
 }
